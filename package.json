@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "compile": "yarn tsc",
+    "start": "node dist/index.js",
+    "build": "yarn compile"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@trpc/server": "^10.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0"
+  }
+}
