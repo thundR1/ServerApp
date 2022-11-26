@@ -10,7 +10,7 @@ const app = express();
 app.use(helmet());
 app.use(
   cors({
-    origin: "https://jovial-mousse-477bc2.netlify.app",
+    origin: "https://inspiring-gumption-c99c73.netlify.app",
     credentials: true,
   })
 );
